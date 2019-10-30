@@ -103,7 +103,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-BrowserApplication[$e]=vivaldi-stable.desktop
+BrowserApplication=vivaldi-stable.desktop
 ColorScheme=Breeze
 Name=Breeze
 XftAntialias=true
@@ -120,6 +120,7 @@ toolBarFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
 Theme=Sardi-Arc
 
 [KDE]
+ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breeze.desktop
 SingleClick=false
 contrast=4

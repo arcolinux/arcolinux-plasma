@@ -1,0 +1,16 @@
+[Appearance]
+Skin=adapta
+
+[Desktop Entry]
+DefaultProfile=arcolinux.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Window]
+Height=60
+ShowTabBar=false
+Width=80

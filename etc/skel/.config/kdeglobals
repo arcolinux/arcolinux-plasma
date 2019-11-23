@@ -110,11 +110,11 @@ XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=rgb
 fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
-font=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 
 [Icons]
 Theme=Surfn-Arc
@@ -129,7 +129,7 @@ widgetStyle=breeze
 [WM]
 activeBackground=71,80,87
 activeBlend=252,252,252
-activeFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 activeForeground=252,252,252
 inactiveBackground=239,240,241
 inactiveBlend=75,71,67

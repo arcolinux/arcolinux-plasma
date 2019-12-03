@@ -23,6 +23,7 @@ slideEnabled=false
 wobblywindowsEnabled=true
 
 [Windows]
+ActiveMouseScreen=true
 MaximizeButtonLeftClickCommand=Maximize
 RollOverDesktops=true
 TitlebarDoubleClickCommand=Maximize

@@ -17,7 +17,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][38]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][38][Configuration]
 PreloadWeight=100
@@ -84,15 +84,11 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][22][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][22][Configuration]
 PreloadWeight=18
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
 
 [Containments][26]
 ItemGeometriesHorizontal=
@@ -104,15 +100,11 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][26][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][26][Configuration]
 PreloadWeight=34
 
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
 
 [Containments][7]
 activityId=
@@ -206,6 +198,13 @@ plugin=org.kde.ktp-contactlist
 
 [Containments][7][Applets][21][Configuration]
 PreloadWeight=18
+
+[Containments][7][Applets][37]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][7][Applets][37][Configuration]
+PreloadWeight=42
 
 [Containments][7][Configuration]
 PreloadWeight=18

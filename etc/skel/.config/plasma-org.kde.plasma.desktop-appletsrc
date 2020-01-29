@@ -15,17 +15,17 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][35]
+[Containments][2][Applets][38]
 immutability=1
-plugin=org.kde.plasma.kicker
+plugin=org.kde.plasma.kickoff
 
-[Containments][2][Applets][35][Configuration]
+[Containments][2][Applets][38][Configuration]
 PreloadWeight=100
 
-[Containments][2][Applets][35][Configuration][General]
+[Containments][2][Applets][38][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][35][Shortcuts]
+[Containments][2][Applets][38][Shortcuts]
 global=Alt+F1
 
 [Containments][2][Applets][4]
@@ -72,7 +72,7 @@ DialogWidth=1920
 PreloadWeight=18
 
 [Containments][2][General]
-AppletOrder=35;4;5;6;8;9
+AppletOrder=38;4;5;6;8;9
 
 [Containments][22]
 ItemGeometriesHorizontal=
@@ -84,11 +84,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][22][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][22][Configuration]
 PreloadWeight=18
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
+Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
 
 [Containments][26]
 ItemGeometriesHorizontal=
@@ -100,11 +104,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][26][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][26][Configuration]
 PreloadWeight=34
 
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
+Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
 
 [Containments][7]
 activityId=

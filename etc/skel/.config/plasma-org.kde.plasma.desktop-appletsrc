@@ -15,21 +15,17 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][34]
+[Containments][2][Applets][35]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kicker
 
-[Containments][2][Applets][34][Configuration]
+[Containments][2][Applets][35][Configuration]
 PreloadWeight=100
 
-[Containments][2][Applets][34][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][2][Applets][34][Configuration][General]
+[Containments][2][Applets][35][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][34][Shortcuts]
+[Containments][2][Applets][35][Shortcuts]
 global=Alt+F1
 
 [Containments][2][Applets][4]
@@ -76,7 +72,7 @@ DialogWidth=1920
 PreloadWeight=18
 
 [Containments][2][General]
-AppletOrder=34;4;5;6;8;9
+AppletOrder=35;4;5;6;8;9
 
 [Containments][22]
 ItemGeometriesHorizontal=
@@ -95,6 +91,7 @@ PreloadWeight=18
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
 
 [Containments][26]
+ItemGeometriesHorizontal=
 activityId=1fe86127-d67b-4797-816f-87c2194fc798
 formfactor=0
 immutability=1

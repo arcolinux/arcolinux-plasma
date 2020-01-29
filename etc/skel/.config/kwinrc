@@ -45,8 +45,18 @@ kwin4_effect_fadedesktopEnabled=true
 slideEnabled=false
 wobblywindowsEnabled=true
 
+[TabBox]
+BorderActivate=9
+BorderAlternativeActivate=9
+
 [Windows]
 ActiveMouseScreen=true
+ElectricBorderCooldown=350
+ElectricBorderCornerRatio=0.25
+ElectricBorderDelay=150
+ElectricBorderMaximize=true
+ElectricBorderTiling=true
+ElectricBorders=1
 MaximizeButtonLeftClickCommand=Maximize
 RollOverDesktops=true
 TitlebarDoubleClickCommand=Maximize

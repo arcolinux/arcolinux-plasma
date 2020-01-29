@@ -40,6 +40,7 @@ _k_friendly_name=KDE Daemon
 {44173454-431b-47c1-858e-932f8e9eff7c}=Meta+Shift+Return,none,dolphin
 {4941e5ca-b4f3-4b1b-b566-33d3fc94e4ad}=Alt+F,none,variety -f
 {548fecdb-c1e0-4d97-8102-3314df40cd2d}=Ctrl+Alt+PgDown,none,conky-rotate previous
+{5f604a95-ad77-4034-96e3-e9bf179474ac}=Ctrl+Alt+E,none,brave
 {60862ebd-a33e-4704-8798-160093eb0c56}=Ctrl+Alt+M,none,systemsettings5
 {6974e3f8-bde2-43ae-b7d7-1c22e54bcc23}=Ctrl+Shift+Esc,none,ksysguard
 {6bf4a8a3-df17-4e9e-9f91-871f1c032a52}=Meta+F7,none,Virtual box
@@ -87,7 +88,7 @@ Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Loc
 Log Out=Ctrl+Alt+Del,none,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
-_k_friendly_name=ksmserver
+_k_friendly_name=System Settings
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -100,6 +101,7 @@ ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Increase Opacity=none,none,Increase Opacity of Active Window by 5 %
 Invert Screen Colors=none,none,Invert Screen Colors
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
+MoveMouseToCenter=,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
@@ -262,7 +264,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity switching
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=Meta+0,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -274,7 +276,7 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=,none,Activate Application Launcher Widget
-activate widget 34=Alt+F1,none,Activate Application Launcher Widget
+activate widget 35=Alt+F1,none,Activate Application Menu Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item

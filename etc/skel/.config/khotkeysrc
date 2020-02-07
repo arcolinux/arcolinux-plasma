@@ -1479,7 +1479,7 @@ Type=SIMPLE_ACTION_DATA
 [Data_4_30]
 Comment=Comment
 Enabled=true
-Name=sublime text
+Name=ArcoLinux-Welcome-App
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_30Actions]

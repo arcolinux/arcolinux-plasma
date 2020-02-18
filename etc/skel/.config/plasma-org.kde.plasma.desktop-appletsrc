@@ -88,7 +88,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=18
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
+Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
 
 [Containments][26]
 ItemGeometriesHorizontal=
@@ -104,7 +104,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=34
 
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
+Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
 
 [Containments][7]
 activityId=

@@ -9,5 +9,6 @@ Favorites=
 
 [Window]
 Height=60
+ShowSystrayIcon=false
 ShowTabBar=false
 Width=80

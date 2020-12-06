@@ -106,7 +106,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-BrowserApplication=vivaldi-stable.desktop
+BrowserApplication=firefox.desktop
 ColorScheme=Breeze
 Name=Breeze
 XftAntialias=true

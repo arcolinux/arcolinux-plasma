@@ -6,6 +6,7 @@ switch-to-activity-799fea17-cff7-46d0-9aac-8d71c6bf41fc=none,none,Switch to acti
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Belgian=none,none,Switch keyboard layout to Belgian
+Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
@@ -74,20 +75,15 @@ decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decreas
 decrease_volume=Volume Down,Volume Down,Decrease Volume
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
-mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
+mic_mute=Microphone Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
-[krunner.desktop]
-RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
-_k_friendly_name=KRunner
-_launch=Alt+Space\tAlt+F2\tMeta+Space\tSearch,Alt+Space\tAlt+F2\tMeta+Space\tSearch,KRunner
-
 [ksmserver]
-Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,Ctrl+Alt+Shift+PgDown,Halt Without Confirmation
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Halt Without Confirmation
 Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
-Log Out Without Confirmation=Ctrl+Alt+Shift+Del,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
-Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
 _k_friendly_name=Session Management
 
 [kwin]
@@ -180,10 +176,10 @@ Window Minimize=Meta+PgDown,Meta+PgDown,Minimize Window
 Window Move=none,none,Move Window
 Window No Border=none,none,Hide Window Border
 Window On All Desktops=none,none,Keep Window on All Desktops
-Window One Desktop Down=none,none,Window One Desktop Down
-Window One Desktop Up=none,none,Window One Desktop Up
-Window One Desktop to the Left=none,none,Window One Desktop to the Left
-Window One Desktop to the Right=none,none,Window One Desktop to the Right
+Window One Desktop Down=none,Meta+Ctrl+Shift+Down,Window One Desktop Down
+Window One Desktop Up=none,Meta+Ctrl+Shift+Up,Window One Desktop Up
+Window One Desktop to the Left=none,Meta+Ctrl+Shift+Left,Window One Desktop to the Left
+Window One Desktop to the Right=none,Meta+Ctrl+Shift+Right,Window One Desktop to the Right
 Window Operations Menu=Alt+F3,Alt+F3,Window Operations Menu
 Window Pack Down=none,none,Pack Window Down
 Window Pack Left=none,none,Pack Window to the Left
@@ -223,9 +219,9 @@ Window to Desktop 7=none,none,Window to Desktop 7
 Window to Desktop 8=none,none,Window to Desktop 8
 Window to Desktop 9=none,none,Window to Desktop 9
 Window to Next Desktop=none,none,Window to Next Desktop
-Window to Next Screen=none,none,Window to Next Screen
+Window to Next Screen=none,Meta+Shift+Right,Window to Next Screen
 Window to Previous Desktop=none,none,Window to Previous Desktop
-Window to Previous Screen=none,none,Window to Previous Screen
+Window to Previous Screen=none,Meta+Shift+Left,Window to Previous Screen
 Window to Screen 0=none,none,Window to Screen 0
 Window to Screen 1=none,none,Window to Screen 1
 Window to Screen 2=none,none,Window to Screen 2
@@ -251,6 +247,11 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
+
+[org.kde.krunner.desktop]
+RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
+_k_friendly_name=KRunner
+_launch=Alt+Space\tAlt+F2\tMeta+Space\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
@@ -302,7 +303,7 @@ previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,none,Show Barcode...
-show-on-mouse-pos=none,none,Open Klipper at Mouse Position
+show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 stop current activity=Meta+S,Meta+S,Stop Current Activity
 switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity

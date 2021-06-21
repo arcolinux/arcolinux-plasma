@@ -1912,6 +1912,9 @@ Key=Ctrl+Alt+S
 Type=SHORTCUT
 Uuid={05e0c4c6-bc8c-4bd3-b364-848b8c283b71}
 
+[General]
+ColorScheme[$d]
+
 [Gestures]
 Disabled=true
 MouseButton=2
@@ -1920,6 +1923,12 @@ Timeout=300
 [GesturesExclude]
 Comment=
 WindowsCount=0
+
+[Icons]
+Theme[$d]
+
+[KDE]
+widgetStyle[$d]
 
 [Main]
 AlreadyImported=defaults,kde32b1,spectacle,konsole,konqueror_gestures_kde321,9999

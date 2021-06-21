@@ -1,5 +1,5 @@
 [ActionPlugins][0]
-MidButton;NoModifier=org.kde.paste
+MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
@@ -20,7 +20,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][38][Configuration]
-PreloadWeight=92
+PreloadWeight=91
 
 [Containments][2][Applets][38][Configuration][General]
 favoritesPortedToKAstats=true
@@ -47,7 +47,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -55,21 +55,21 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][9]
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
 [Containments][2][Applets][9][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][ConfigDialog]
 DialogHeight=76
 DialogWidth=1920
 
 [Containments][2][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][General]
 AppletOrder=38;4;5;6;8;9
@@ -85,12 +85,13 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][22][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][22][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
 
 [Containments][26]
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=1fe86127-d67b-4797-816f-87c2194fc798
 formfactor=0
@@ -101,7 +102,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][26][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][26][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
@@ -120,42 +121,42 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][13]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][14]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][16]
 immutability=1
@@ -169,21 +170,21 @@ immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][18]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][18][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][19]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][20]
 immutability=1
@@ -208,17 +209,24 @@ PreloadWeight=42
 
 [Containments][7][Applets][39]
 immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
+plugin=org.kde.plasma.keyboardlayout
 
 [Containments][7][Applets][39][Configuration]
-PreloadWeight=34
+PreloadWeight=0
+
+[Containments][7][Applets][40]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][7][Applets][40][Configuration]
+PreloadWeight=18
 
 [Containments][7][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.ktp-contactlist,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol
-knownItems=org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.ktp-contactlist,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol
+extraItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout
+knownItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout
 
 [ScreenMapping]
 itemsOnDisabledScreens=

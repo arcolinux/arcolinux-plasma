@@ -12,3 +12,7 @@ Height=60
 ShowSystrayIcon=false
 ShowTabBar=false
 Width=80
+
+[Appearance]
+Blur=false
+Translucency=false

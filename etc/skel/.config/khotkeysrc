@@ -1713,14 +1713,14 @@ Uuid={724847d0-a2da-4779-8fb5-3deb43e643c5}
 [Data_4_39]
 Comment=Comment
 Enabled=true
-Name=ArcoLinux-Tweak-Tool
+Name=ArchLinux-Tweak-Tool
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_39Actions]
 ActionsCount=1
 
 [Data_4_39Actions0]
-CommandURL=arcolinux-tweak-tool
+CommandURL=archlinux-tweak-tool
 Type=COMMAND_URL
 
 [Data_4_39Conditions]

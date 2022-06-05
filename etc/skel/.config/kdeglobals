@@ -111,12 +111,9 @@ shadeSortColumn=true
 smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 
-[Icons]
-Theme=Surfn-Plasma-Dark-Tela
-
 [KDE]
 ColorScheme=Breeze
-LookAndFeelPackage=com.github.varlesh.arc-dark
+LookAndFeelPackage=com.github.varlesh.arc-dark-tela
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false

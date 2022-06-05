@@ -7,8 +7,5 @@ NumLock=0
 RepeatDelay=600
 RepeatRate=25
 
-[Mouse]
-cursorTheme=Bibata-Modern-Ice
-
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

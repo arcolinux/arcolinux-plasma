@@ -32,7 +32,6 @@ _k_friendly_name=Custom Shortcuts Service
 {10de7d96-63a9-4746-b323-4bf106497412}=Ctrl+Alt+B,none,thunar
 {18656125-a9f8-4251-b560-9ee1bd385fcb}=Meta+F3,none,inkscape
 {1992a8c1-24c9-4364-a51e-7af45c9f1566}=Meta+F5,none,meld
-{1f17146a-c5dc-471d-a252-c8ecb73ee696}=Ctrl+Alt+T,none,Launch Konsole
 {20c24088-6460-4b65-a547-db15f8010452}=Meta+F2,none,atom
 {22cba017-e700-4c10-9cf5-afb45bfcb56c}=Alt+Up,none,variety pause
 {27bfde7f-1f88-4527-8738-1ae22c0a3911}=Ctrl+Alt+V,none,vivaldi
@@ -248,6 +247,12 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
+
+[org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=Ctrl+Alt+T,none,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents

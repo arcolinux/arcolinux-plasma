@@ -7,7 +7,7 @@ switch-to-activity-799fea17-cff7-46d0-9aac-8d71c6bf41fc=none,none,Switch to acti
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Belgian=none,none,Switch keyboard layout to Belgian
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
-Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Ctrl+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -79,32 +79,34 @@ mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,,Halt Without Confirmation
-Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
+Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,,Reboot Without Confirmation
 _k_friendly_name=Session Management
 
 [kwin]
-Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
+Activate Window Demanding Attention=Ctrl+Alt+A,Meta+Ctrl+A,Activate Window Demanding Attention
 Cube=Ctrl+F11,Ctrl+F11,Desktop Cube
 Cylinder=none,none,Desktop Cylinder
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
 Invert Screen Colors=none,,Invert Screen Colors
-Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
+Kill Window=Ctrl+Alt+Esc,Meta+Ctrl+Esc,Kill Window
 MoveMouseToCenter=none,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=none,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
+Overview=Meta+W,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
-Show Desktop=Meta+D,Meta+D,Show Desktop
-ShowDesktopGrid=Ctrl+F8,Ctrl+F8,Show Desktop Grid
+Show Desktop=Meta+D,Meta+D,Peek at Desktop
+ShowDesktopGrid=Ctrl+F8,Meta+F8,Show Desktop Grid
 Sphere=none,none,Desktop Sphere
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=Ctrl+Alt+Down,Meta+Ctrl+Down,Switch One Desktop Down
@@ -231,8 +233,8 @@ Window to Screen 5=none,,Window to Screen 5
 Window to Screen 6=none,,Window to Screen 6
 Window to Screen 7=none,,Window to Screen 7
 _k_friendly_name=KWin
-view_actual_size=none,Meta+0,Actual Size
-view_zoom_in=Meta+=,Meta+=,Zoom In
+view_actual_size=none,Meta+0,Zoom to Actual Size
+view_zoom_in=Meta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
@@ -299,14 +301,15 @@ activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=none,none,Activate Application Launcher Widget
 activate widget 38=Alt+F1,none,Activate Application Menu Widget
 clear-history=none,,Clear Clipboard History
-clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
+clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatic Action Popup Menu
+cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,none,Walk through activities
 previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
-repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
+repeat_action=Ctrl+Alt+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position

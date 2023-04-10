@@ -8,7 +8,7 @@ RepeatDelay=600
 RepeatRate=25
 
 [Mouse]
-X11LibInputXAccelProfileFlat=false
+X11LibInputXAccelProfileFlat=true
 cursorTheme=Bibata-Modern-Ice
 
 [Tmp]

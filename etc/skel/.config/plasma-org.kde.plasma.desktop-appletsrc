@@ -19,7 +19,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][38][Configuration]
-PreloadWeight=88
+PreloadWeight=100
 
 [Containments][2][Applets][38][Configuration][General]
 favoritesPortedToKAstats=true
@@ -46,7 +46,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=0
+PreloadWeight=25
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -113,6 +113,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=480
+popupWidth=480
 wallpaperplugin=org.kde.image
 
 [Containments][7][Applets][10]
@@ -121,6 +123,9 @@ plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
 PreloadWeight=0
+
+[Containments][7][Applets][10][Configuration][General]
+migrated=true
 
 [Containments][7][Applets][11]
 immutability=1
@@ -155,7 +160,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][16]
 immutability=1
@@ -231,8 +236,8 @@ PreloadWeight=0
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
-knownItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
+extraItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen
+knownItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 
 [ScreenMapping]
 itemsOnDisabledScreens=

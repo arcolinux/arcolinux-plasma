@@ -1211,14 +1211,14 @@ Uuid={fdaa9310-506c-409e-82de-bf2c559177b1}
 [Data_4_19]
 Comment=Comment
 Enabled=true
-Name=evolution
+Name=lollypop
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_19Actions]
 ActionsCount=1
 
 [Data_4_19Actions0]
-CommandURL=evolution
+CommandURL=lollypop
 Type=COMMAND_URL
 
 [Data_4_19Conditions]

@@ -232,6 +232,10 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][7][Applets][41][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][42]
+immutability=1
+plugin=org.kde.kscreen
+
 [Containments][7][Configuration]
 PreloadWeight=0
 
@@ -241,3 +245,4 @@ knownItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=

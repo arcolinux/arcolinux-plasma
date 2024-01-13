@@ -2068,6 +2068,9 @@ AlreadyImported=defaults,kde32b1,spectacle,konsole,konqueror_gestures_kde321,999
 Disabled=false
 Version=2
 
+[PreviewSettings]
+MaximumRemoteSize[$d]
+
 [Toolbar style]
 ToolButtonStyle[$d]
 ToolButtonStyleOtherToolbars[$d]

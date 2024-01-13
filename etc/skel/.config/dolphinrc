@@ -8,7 +8,7 @@ ViewPropsTimestamp=2020,1,29,15,5,0
 Width 1920=750
 
 [IconsMode]
-IconSize=80
+IconSize=64
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
